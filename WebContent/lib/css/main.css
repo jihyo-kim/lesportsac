@@ -1,0 +1,59 @@
+#container {height:100%;	width:960px;	margin:0 auto;}
+
+#container .main_slide{position:relative; margin-top:30px; margin-bottom:45px}
+#container .main_slide>ul{width:960px; height:550px; text-align:center}
+#container .main_slide>ul>li{display:inline-block; }
+#container .main_slide>ul>li>div{position:absolute; top:0; left:0; background: width:960px; height:500px; overflow:hidden; }
+#container .main_slide>ul>li>div>img{width:100%;}
+#container .main_slide>ul>li>div:hover{opacity:0.7; }
+#container .main_slide>ul>li>a{position:relative; top:520px; z-index:10; margin:0 1px; background:url("../../lib/images/main/btn_paging.png")no-repeat; text-indent:100%; overflow:hidden; width:11px; height:11px; display:block}
+#container .main_slide>ul>li>a:hover{background:url("../../lib/images/main/btn_paging_on.png")no-repeat;}
+
+#container button{display:block; position:absolute; top:50%; z-index:999; margin-top:-25px;text-indent:-99999px; width:50px; height:50px; cursor:pointer}
+#container button.next{position:absolute; right:20px; background:url("../../lib/images/main/btn_next.png")}
+#container button.prev{position:absolute; left:20px; background:url("../../lib/images/main/btn_prev.png")}
+
+#container .title_bar{  margin-bottom:20px; background:url("../../lib/images/main/bg_title.gif")repeat-x scroll 0 60%; text-align:center}
+#container .title_bar .main_title{background:#FFF; padding:0px 30px; font-family:"FuturaHvBTHeavy"; font-weight:normal; font-size:0.75em; color:#333}
+
+#container .issue{position:relative; width:960px; height:500px; }
+#container .issue>ul>li{float:left;  width:320px; height:420px;}
+#container .issue>ul>li>a>div>img{width:100%}
+#container .issue>ul>li>a>div:hover{opacity:0.7}
+#container .issue>ul>li>a>span{display:block; padding:20px 20px 0; height:70px; }
+#container .issue>ul>li>a>span>strong{margin-bottom:3px; line-height:14px; font-family:"Nanum Gothic"; font-size:0.9em }
+#container .issue>ul>li>a>span>p{font-size:0.82em; line-height:18px; letter-spacing:-0.5px}
+
+#container .section .main_list{margin-top:15px; margin-bottom:70px; overflow:hidden}
+#container .section .main_object{display:block; position:relative; float:left; width:25%}
+#container .section .layer{position:absolute;top:0; left:0; z-index: 10; width:45px; height:45px}
+#container .section .layer>img{width:100%; margin-bottom:5px; }
+#container .section .object>img{width:100%}
+#container .section .object>img:hover{opacity:0.7}
+
+#container .collection>ul{overflow:hidden; }
+#container .collection .collection_object{float:left; margin:0 12px 15px 0; overflow:hidden; width:231px; height:230px}
+#container .collection .last{margin-right:0px}
+#container .collection>ul>li>a{display:block; position:relative; border-radius:50%; width:100%; height:100%; overflow:hidden; }
+#container .collection>ul>li>a>div{width:100%;}
+#container .collection>ul>li>a>div>img{width:100%; vertical-align:middle}
+#container .collection>ul>li>a>span{position:absolute; top:40%; padding:10px 0px; background:url("../../lib/images/collection/bg_collection.png"); z-index: 999; width:100%; text-align:center; color:#fff; line-height:21px; font-family:"FuturaBT-Medium"; font-size:1.1em }
+
+#container dl{text-align: center; height:110px}
+#container dt{margin-bottom:5px;font-size:0.85em; font-weight:bold}
+#container dd{color:#666; font-size:0.85em}
+#container dd.price1{color:#A2A2A2; font-size:0.85em; text-decoration:line-through}
+#container dd.price2{color:#333; font-size:0.85em}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<base href="http://localhost:8080/lesportsac_korea/" target="_self" />
+	<link rel="stylesheet" href="lib/css/import.css" media="all" />
+
+	<script type="text/javascript" src="lib/js/jquery-1.11.3.min.js"></script>	
+	<title>lesportsackorea</title>
+</head>
+<body>
+	<%@ include file="/html/inc/header.jsp" %>
+</body>
+</html>

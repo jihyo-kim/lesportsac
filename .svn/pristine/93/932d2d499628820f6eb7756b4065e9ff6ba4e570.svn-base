@@ -1,0 +1,71 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<base href="http://localhost:8080/lesportsac/" target="_self" />
+	<link rel="stylesheet" href="lib/css/import.css" media="all" />
+
+	<script type="text/javascript" src="lib/js/jquery-1.11.3.min.js"></script>	
+	<title>lesportsackorea</title>
+</head>
+<body>
+	<%@ include file="/html/inc/header.jsp" %>
+	<div id="container">
+		<div class="main_slide">
+			<ul>
+				<li>
+					<div><a href="#"><img  title="파우치 특가 세일" src="http://www.lesportsackorea.com/data/banner/mainbanner_d_6.JPG" alt="파우치 특가 세일" /></a></div>
+					<a href="#" title="Move to the slide group 1">Move to the slide group 1</a>
+				</li>
+				<li>
+					<div><a href="#"><img src="http://www.lesportsackorea.com/data/banner/Holiday2_600dpi.jpg" alt="" /></a></div>
+					<a href="#" title="Move to the slide group 2">Move to the slide group 2</a>
+				</li>
+				<li>
+					<div><a href="#"><img src="http://www.lesportsackorea.com/data/banner/Holiday3_600dpi.jpg" alt="" /></a></div>
+					<a href="#" title="Move to the slide group 3">Move to the slide group 3</a>
+				</li>
+				<li>
+					<div><a href="#"><img src="http://www.lesportsackorea.com/data/banner/Holiday4_600DPI.jpg" alt="" /></a></div>
+					<a href="#" title="Move to the slide group 4">Move to the slide group 4</a>
+				</li>
+				<li>
+					<div><a href="#"><img src="http://www.lesportsackorea.com/data/banner/dedktop_피너츠 배너.jpg" alt="" /></a></div>
+					<a href="#" title="Move to the slide group 5">Move to the slide group 5</a>
+				</li>
+			</ul>
+			<button class="next">다음</button>
+			<button class="prev">이전</button>
+		</div>
+		<article class="issue">
+			<ul>
+				<li>					
+					<a href="#">
+						<img src="http://www.lesportsackorea.com/data/banner/main_event_피너츠 x 레스포색_3.JPG" alt="" />						
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="http://www.lesportsackorea.com/data/banner/event_list.JPG" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="http://www.lesportsackorea.com/data/banner/3346.Q062-(5).jpg" alt="" />
+					</a>
+				</li>
+			</ul>
+		</article>
+		<div class="choice"></div>
+		<div class="pattern"></div>
+		<div class="collection"></div>
+		
+	</div>
+	
+
+	<%@ include file="/html/inc/footer.jsp" %>
+</body>
+</html>

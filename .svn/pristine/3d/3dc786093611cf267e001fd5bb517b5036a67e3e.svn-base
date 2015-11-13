@@ -1,0 +1,7 @@
+*{margin:0; padding:0; border: 0 none;}
+body{height:100%}
+a{text-decoration:none; color:rgb(51,51,51); }
+img{vertical-align:top}
+ul {list-style:none}
+filedset{border:0 none; }
+body, a {font-family: 'FuturaBT-Medium', 'Nanum Gothic';}

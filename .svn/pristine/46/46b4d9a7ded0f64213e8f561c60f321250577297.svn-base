@@ -1,0 +1,67 @@
+$(function(){
+			
+	$(window).scroll(function(){		
+		var sct = $(this).scrollTop();
+						
+		if(sct==0){
+			$('#header .header_wrap').css({'display':'block', 'position':'absolute', 'top':'0'}).children('#container').css({'position':'fixed', 'top':'170'})
+			$('#header .header_move_wrap').css('display','none');
+			$('body').css('padding-top','170px')
+			
+		}else if(sct>0){		
+			$('#header .header_move_wrap').css({'display':'block', 'position':'fixed', 'top':'0'})			
+			
+		}else if(scr>150){
+			$('#header .header_wrap').css('display','none')
+		}
+	
+	})//헤더 숨김
+	
+	var idx=0
+	
+	function movement(start,end,index){
+		$('.main_slide>.slide_img>li').eq(index).children('div')
+		.css({'display':'block', 
+			'left':start}).stop().animate({
+			left:end
+		})
+		
+		if(idx==$('.main_slide>.slide_img>li').size()){
+			idx=0;
+			movement('100%',0,idx);		
+		}else if(idx<0){
+			idx=$('.main_slide>.slide_img>li').size()-1;
+			movement('-100%',0,idx)
+		}
+		slidebutton()
+	}//slidebanner movement end
+	
+	
+	function slidebutton(){
+		
+		$('.main_slide>.paging>li').eq(idx)
+		.children('.slide_button')
+		.css({'background':'url("lib/images/main/btn_paging_on.png")no-repeat'})
+		.parent().siblings().children('.slide_button')
+		.css({'background':'url("lib/images/main/btn_paging.png")no-repeat'})
+	
+	}//slidebutton end
+	
+	$('.main_slide .next').click(function(){
+		movement(0,'-100%',idx);
+		idx++;
+		movement('100%',0,idx);
+		console.log(idx);
+	})//slidebanner next click end
+	
+	$('.main_slide .prev').click(function(){
+		movement(0,'100%',idx);
+		idx--;
+		movement('-100%',0,idx);
+
+	})//slidebanner prev click end
+	
+})
+
+
+//	console.log(scr);	

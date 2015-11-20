@@ -1,0 +1,25 @@
+$(function(){
+			
+	$(window).scroll(function(){		
+		var sct = $(this).scrollTop();
+		
+		
+		
+	if(sct==0){
+		$('#header .header_wrap').css({'display':'block', 'position':'absolute', 'top':'0'}).children('#container').css({'position':'fixed', 'top':'170'})
+		$('#header .header_move_wrap').css('display','none');
+		$('body').css('padding-top','170px')
+		
+	}else if(sct>0){		
+		$('#header .header_move_wrap').css({'display':'block', 'position':'fixed', 'top':'0'})
+		
+		
+	}else if(scr>150){
+		$('#header .header_wrap').css('display','none')
+	}
+	
+	})
+})
+
+
+//	console.log(scr);	

@@ -1,5 +1,5 @@
 #header {width:100%;}
-#header .header_wrap{display:block; width:100%;  background:#fff url("../../lib/images/common/bg_header.gif") repeat-x scroll 0px 0px; z-index:100; position:relative}
+#header .header_wrap{display:block; width:100%;  background:#fff url("../../lib/images/common/bg_header.gif")repeat-x scroll 0px 0px; z-index:100  }
 .header_wrap_inner{position:relative; overflow:hidden; z-index:999; width:960px; margin:0px auto 30px}
 .header_wrap_inner a{font-family: "Arial"; font-size:0.75em; font-weight:bold}
 .header_wrap_inner .utill_left{float:left; margin-top:60px; }

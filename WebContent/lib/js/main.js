@@ -77,6 +77,51 @@ $(function(){
 		
 	})//slidebanner prev click end
 	
+	
+//		$('.slide_img').prepend(lastClone).children('li').css('left',-itemW);
+	
+ 
+	
+	
+	
+//	var count = 0;
+//	var lastClone = $('.slide_img>li:last').clone();
+//	var firstClone = $('.slide_img>li:first').clone();
+//	
+//	var itemW = 960;
+//	var slide_W = ($('.slide_img>li').size()+1)*itemW;
+//				
+//	$('.slide_img').css('width',slide_W);
+//	
+//	
+//	$('.next').click(function(){
+//		count++
+//		console.log(count)
+//		$('.slide_img').append(firstClone).children('.slide_img>li:last').addClass('on');
+//		
+//		$('.slide_img>li').animate({
+//			
+//			left:-1*(itemW*count)
+//		})
+//		
+//		if(count==5){			
+//			count=0
+//			$('.slide_img>li').slice(0,5)
+//			.animate({
+//			       'left':'960'
+//		     })		
+//			
+//			console.log('c')
+//		}
+//		
+//		
+//	}) 슬라이드 롤
+	
+	
+	
+	
+	
+	
 	var inter = setInterval(function(){
 		$('.next').trigger('click')
 	},4500)
